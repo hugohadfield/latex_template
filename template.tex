@@ -1,0 +1,64 @@
+\documentclass[12pt,a4paper,twoside=semi]{report}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{gensymb}
+\usepackage[figurewithin=none,tablewithin=none]{caption}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{pdfpages}
+\usepackage{titling}
+\usepackage[hyphens]{url}
+\usepackage{bm}
+\usepackage{cite}
+\usepackage[ruled]{algorithm2e}
+\usepackage{listings}
+\usepackage{subfigure}
+\usepackage[nottoc]{tocbibind}
+
+\usepackage[colorinlistoftodos,color={red!100!green!33}]{todonotes}
+
+\usepackage{graphicx}
+\graphicspath{{./plots/}}
+
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+
+\linespread{1.3}
+
+\newcommand{\diff}[2]{\frac{\text{d}(#1)}{\text{d}#2}}
+\newcommand{\pdiff}[2]{\frac{\partial(#1)}{\partial#2}}
+\newcommand{\grad}{\nabla}
+
+\newcommand{\todoinline}[1]{\todo[inline]{#1}}
+
+\renewcommand{\bibname}{References}
+
+\begin{document}
+
+\tableofcontents
+
+\begin{abstract}
+\begin{center}
+\section*{Latex template with additional commands and imported packages}
+Hugo Hadfield\\
+Queens' College
+\end{center}
+
+This is a Latex template for writing reports, this is where your abstract would go
+\end{abstract}
+
+\chapter{Introduction}
+The report class is organised into chapters
+
+\section{Uncertainty quantification}
+Sections are under chapters
+
+
+\end{document}
